@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="integration.IntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-25T17:39:31" hostname="LAPTOP-30L91JUA" time="0.008">
+  <properties/>
+  <testcase name="IntegrationTest gfgfg" classname="integration.IntegrationTest" time="0.008"/>
+  <system-out><![CDATA[ello
+hi
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

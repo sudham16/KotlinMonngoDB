@@ -1,0 +1,218 @@
+[{
+  "_id": {
+    "$oid": "62e3d3efe7bdacfef47a87ba"
+  },
+  "name": "prakash",
+  "age": 65,
+  "create": true,
+  "address": {
+    "Street": "lakshmipuram",
+    "doorno": "9A/7"
+  },
+  "_class": "com.main.data.Member",
+  "status": "Ready With Warnings",
+  "transactionType": {
+    "add": true,
+    "change": true,
+    "nochange": true,
+    "cancel": true,
+    "addden": false,
+    "error": true,
+    "warn": false
+  },
+  "middleName": {
+    "changed": true
+  },
+  "initialName": {
+    "changed": false
+  },
+  "persons": [
+    {
+      "name": "prakash",
+      "autocancel": true
+    },
+    {
+      "name": "rajesh",
+      "autocancel": true
+    }
+  ],
+  "error": []
+},{
+  "_id": {
+    "$oid": "62e3d46fe7bdacfef47a87bb"
+  },
+  "name": "siva",
+  "age": 55,
+  "address": {
+    "Street": "saravanampatty",
+    "doorno": "45"
+  },
+  "_class": "com.main.data.Member",
+  "status": "inprogress",
+  "transactionType": {
+    "add": true,
+    "change": false,
+    "nochange": true,
+    "cancel": true
+  },
+  "middleName": {
+    "changed": true
+  },
+  "initialName": {
+    "changed": true
+  },
+  "error": []
+},{
+  "_id": {
+    "$oid": "62e90dab3d15e559591d9090"
+  },
+  "name": "prakash",
+  "age": 55,
+  "kids": 5,
+  "create": true,
+  "address": {
+    "Street": "mg garden",
+    "doorno": "55"
+  },
+  "_class": "com.main.data.Member",
+  "status": "Ready With Warnings",
+  "transactionType": {
+    "add": true,
+    "change": false,
+    "nochange": true,
+    "cancel": true,
+    "addden": false,
+    "error": true,
+    "warn": false
+  },
+  "middleName": {
+    "changed": false
+  },
+  "initialName": {
+    "changed": false
+  },
+  "persons": [
+    {
+      "name": "prakash",
+      "autocancel": true
+    },
+    {
+      "name": "rajesh",
+      "autocancel": true
+    }
+  ],
+  "error": [
+    {
+      "errorCategory": "1",
+      "errorDescription": "test error 1",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "2",
+      "errorDescription": "test error 2",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "1",
+      "errorDescription": "test error 1",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "2",
+      "errorDescription": "test error 2",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "1",
+      "errorDescription": "test error 1",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "2",
+      "errorDescription": "test error 2",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "1",
+      "errorDescription": "test error 1",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "3",
+      "errorDescription": "test error 2",
+      "_class": "com.main.data.Error"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62ea66cce7bdacfef47a87bc"
+  },
+  "name": "prakash",
+  "age": 70,
+  "kids": 5,
+  "create": true,
+  "address": {
+    "Street": "lakshmipuram",
+    "doorno": "9A/7"
+  },
+  "status": "Ready With Warnings",
+  "transactionType": {
+    "add": false,
+    "change": false,
+    "nochange": true,
+    "cancel": false
+  },
+  "middleName": {
+    "changed": false
+  },
+  "initialName": {
+    "changed": true
+  },
+  "error": [
+    {
+      "errorCategory": "2",
+      "errorDescription": "test error 2",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "2",
+      "errorDescription": "test error 2",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "2",
+      "errorDescription": "test error 2",
+      "_class": "com.main.data.Error"
+    },
+    {
+      "errorCategory": "2",
+      "errorDescription": "test error 2",
+      "_class": "com.main.data.Error"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62ef661be7bdacfef47a87bf"
+  },
+  "name": "prakash",
+  "age": 70,
+  "create": true,
+  "address": {
+    "Street": "lakshmipuram",
+    "doorno": "9A/7"
+  },
+  "status": "Ready With Warnings",
+  "transactionType": {
+    "add": false,
+    "change": true,
+    "nochange": false,
+    "cancel": true
+  },
+  "middleName": {
+    "changed": false
+  },
+  "initialName": {
+    "changed": false
+  },
+  "error": []
+}]
