@@ -46,21 +46,10 @@ sourceSets{
             "src/intTest"
         )
 
-        resources{
-            srcDirs(
-                "src/intTest/resources"
-            )
-        }
     }
 }
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
 }
-task generatePojo(type: org.jsonschema2pojo.Jsonschema2PojoTask) {
-    source = files("src/main/resources/sample.json")
-    targetDirectory = file("src/main/java")
-    usePrimitives = true
-    includeAdditionalProperties = false
-    includeDynamicAccessors = true
-}
+
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.main.template.testlist" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-25T17:39:31" hostname="LAPTOP-30L91JUA" time="0.001">
-  <properties/>
-  <testcase name="Should get an index out of bounds when removing a non-existent item" classname="com.main.template.testlist" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
